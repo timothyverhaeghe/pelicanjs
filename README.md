@@ -46,6 +46,15 @@ const median = pelican.median(array);
 console.log(median)
 ```
 
+### 2.5. parseJSON
+```js
+// median
+const pelican = require('pelicanjs');
+const wrongJSON = "";
+const json = pelican.parseJSON(wrongJSON);
+console.log(json) // will output {} instead of crashing.
+```
+
 ## 3. Copyright
 MIT License
 

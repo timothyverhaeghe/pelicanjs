@@ -39,9 +39,18 @@ const median = (array) => {
   return arr[0];
 };
 
+const parseJSON = (body) => {
+  try {
+    return JSON.parse(body);
+  } catch (e) {
+    return {};
+  }
+};
+
 module.exports = {
   median,
   objectSort,
   forEach,
   capitalize,
+  parseJSON,
 };
