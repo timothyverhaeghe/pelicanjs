@@ -37,7 +37,7 @@ const sorted = pelican.median(array, 'id');
 console.log(sorted)
 ```
 
-### 2.1. Calcualte median of array
+### 2.4. Calcualte median of array
 ```js
 // median
 const pelican = require('pelicanjs');
