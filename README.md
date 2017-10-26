@@ -1,5 +1,5 @@
 # PelicanJS
-Collection of variables &amp; array functions
+Collection of variables &amp; array functions. Feel free to add your own.
 
 ## 1. Use it
 ```bash
@@ -27,7 +27,7 @@ pelican.forEach(array, function(number, cb){
 ## 3. Copyright
 MIT License
 
-Copyright (c) 2017 [Taglayer](https://taglayer.com)
+Copyright (c) 2017 [Timothy Verhaeghe](https://github.com/timothyverhaeghe)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
