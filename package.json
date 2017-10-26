@@ -1,0 +1,19 @@
+{
+  "name": "pelican",
+  "version": "1.0.0",
+  "description": "Pelican is a collection of string & array functions for NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/timothyverhaeghe/pelican.git"
+  },
+  "author": "Timothy Verhaeghe <me@timothyverhaeghe.com> (timothyverhaeghe.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timothyverhaeghe/pelican/issues"
+  },
+  "homepage": "https://github.com/timothyverhaeghe/pelican#readme"
+}
