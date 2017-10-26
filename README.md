@@ -1,5 +1,10 @@
-# Pelican
+# PelicanJS
 Collection of variables &amp; array functions
+
+## 1. Use it
+```bash
+npm install pelicanjs
+```
 
 ## 2. Documenation
 ### 2.1. Async foreach
@@ -14,11 +19,12 @@ pelican.forEach(array, function(number, cb){
 })
 ```
 
-## 3. Current contributors
-- [Timothy Verhaeghe](https://github.com/timothyverhaeghe)
+### 2.2. Capitalize first Letter
+### 2.3. Sort array of objects
+### 2.1. Calcualte median of array
 
 
-## 4. Copyright
+## 3. Copyright
 MIT License
 
 Copyright (c) 2017 [Taglayer](https://taglayer.com)

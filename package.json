@@ -1,5 +1,5 @@
 {
-  "name": "pelican",
+  "name": "pelicanjs",
   "version": "1.0.0",
   "description": "Pelican is a collection of string & array functions for NodeJs",
   "main": "index.js",
