@@ -7,12 +7,8 @@ const capitalize = (str) => {
   return '';
 };
 
-/**
-  - Loop over an array.
-  usage
-*/
 const forEach = (arr, func, callback, i) => {
-  if(typeof i === 'undefined') i = 0;
+  if (typeof i === 'undefined') i = 0;
   if (arr[i]) {
     func(arr[i], () => {
       forEach(arr, func, callback, i + 1);
@@ -47,5 +43,5 @@ module.exports = {
   median,
   objectSort,
   forEach,
-  capitalize
-}
+  capitalize,
+};
