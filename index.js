@@ -1,6 +1,6 @@
 // Node packages
 
-const capitalizeFirstLetter = (str) => {
+const capitalize = (str) => {
   if (str) {
     return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
   }
@@ -23,7 +23,7 @@ const forEach = (arr, func, callback, i) => {
 };
 
 // sort object on field
-const sortArrObject = (arr, field) => {
+const objectSort = (arr, field) => {
   if (arr && arr != null && arr.length > 0) {
     return arr.sort((a, b) => {
       if (a[field] < b[field]) { return 1; }
@@ -45,7 +45,7 @@ const median = (array) => {
 
 module.exports = {
   median,
-  sortArrObject,
+  objectSort,
   forEach,
-  capitalizeFirstLetter
+  capitalize
 }

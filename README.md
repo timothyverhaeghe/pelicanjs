@@ -9,7 +9,7 @@ npm install pelicanjs
 ## 2. Documenation
 ### 2.1. Async foreach
 ```js
-const pelican = require('pelican');
+const pelican = require('pelicanjs');
 const array = [1, 2, 3, 4, 5];
 pelican.forEach(array, function(number, cb){
   console.log(number);
@@ -20,9 +20,31 @@ pelican.forEach(array, function(number, cb){
 ```
 
 ### 2.2. Capitalize first Letter
-### 2.3. Sort array of objects
-### 2.1. Calcualte median of array
+```js
+// capitalize
+const pelican = require('pelicanjs');
+const string = 'belgium';
+const capitalized = pelican.capitalize(string);
+console.log(capitalized) // Belgium
+```
 
+### 2.3. Sort array of objects
+```js
+// objectSort
+const pelican = require('pelicanjs');
+const array = [{id: 1}, {id: 3}, {id: 2}];
+const sorted = pelican.median(array, 'id');
+console.log(sorted)
+```
+
+### 2.1. Calcualte median of array
+```js
+// median
+const pelican = require('pelicanjs');
+const array = [1, 2, 3, 4, 5];
+const median = pelican.median(array);
+console.log(median)
+```
 
 ## 3. Copyright
 MIT License
