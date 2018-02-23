@@ -33,7 +33,7 @@ console.log(capitalized) // Belgium
 // objectSort
 const pelican = require('pelicanjs');
 const array = [{id: 1}, {id: 3}, {id: 2}];
-const sorted = pelican.median(array, 'id');
+const sorted = pelican.objectSort(array, 'id');
 console.log(sorted)
 ```
 
