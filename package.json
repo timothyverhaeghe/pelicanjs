@@ -1,6 +1,6 @@
 {
   "name": "pelicanjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Pelican is a collection of string & array functions for NodeJs",
   "main": "index.js",
   "scripts": {
